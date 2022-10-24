@@ -2,8 +2,9 @@ package com.codepath.examples.basicsnakegame;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 
-import com.codepath.simplegame.AbstractGamePanel;
-import com.codepath.simplegame.actors.PositionedActor;
+import com.codepath.examples.basicsnakegame.simplegame.AbstractGamePanel;
+import com.codepath.examples.basicsnakegame.simplegame.actors.PositionedActor;
+
 
 
 public class ScoreBoard extends PositionedActor {

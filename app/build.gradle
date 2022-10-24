@@ -1,13 +1,14 @@
 apply plugin: 'com.android.application'
 
+
 android {
-    compileSdkVersion 21
+    compileSdkVersion 32
     buildToolsVersion "21.1.2"
 
     defaultConfig {
         applicationId "com.codepath.examples.basicsnakegame"
         minSdkVersion 8
-        targetSdkVersion 17
+        targetSdkVersion 33
     }
 
     buildTypes {
@@ -19,6 +20,4 @@ android {
 
 }
 
-dependencies {
-    compile 'com.android.support:support-v4:21.0.3'
-}
+

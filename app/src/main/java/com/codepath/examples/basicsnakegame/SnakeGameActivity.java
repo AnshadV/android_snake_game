@@ -2,7 +2,9 @@ package com.codepath.examples.basicsnakegame;
 
 import android.os.Bundle;
 
-public class SnakeGameActivity extends com.codepath.simplegame.GameActivity {
+import com.codepath.examples.basicsnakegame.simplegame.GameActivity;
+
+public class SnakeGameActivity extends GameActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) { 

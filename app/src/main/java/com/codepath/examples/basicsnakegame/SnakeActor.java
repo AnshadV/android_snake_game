@@ -11,9 +11,9 @@ import android.graphics.Rect;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 
-import com.codepath.simplegame.AbstractGamePanel;
-import com.codepath.simplegame.Velocity;
-import com.codepath.simplegame.actors.SimpleMovingActor;
+import com.codepath.examples.basicsnakegame.simplegame.AbstractGamePanel;
+import com.codepath.examples.basicsnakegame.simplegame.Velocity;
+import com.codepath.examples.basicsnakegame.simplegame.actors.SimpleMovingActor;
 
 public class SnakeActor extends SimpleMovingActor {
 	public static final int DRAW_SIZE = 25;

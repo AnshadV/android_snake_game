@@ -7,7 +7,7 @@ import android.graphics.Paint;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 
-import com.codepath.simplegame.AbstractGamePanel;
+import com.codepath.examples.basicsnakegame.simplegame.AbstractGamePanel;
 
 public class SnakeGamePanel extends AbstractGamePanel {
 
